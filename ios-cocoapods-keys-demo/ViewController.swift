@@ -7,19 +7,24 @@
 //
 
 import UIKit
+import Keys
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        getKeysValue()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    private func getKeysValue() {
+
+        // Keysインスタンス生成
+        let keys = Keys()
+
+        // 設定値を取得する
+        let secretValue = keys.secretkey
+        let privateValue = keys.privateKey
+        print("secretValue: \(secretValue), privateValue: \(privateValue)")
     }
-
-
 }
 
