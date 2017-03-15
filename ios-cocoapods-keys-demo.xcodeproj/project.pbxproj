@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963FE8AF1E79A24800BF8945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FE8AE1E79A24800BF8945 /* AppDelegate.swift */; };
+		963FE8B11E79A24800BF8945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FE8B01E79A24800BF8945 /* ViewController.swift */; };
+		963FE8B41E79A24800BF8945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963FE8B21E79A24800BF8945 /* Main.storyboard */; };
+		963FE8B61E79A24800BF8945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963FE8B51E79A24800BF8945 /* Assets.xcassets */; };
+		963FE8B91E79A24800BF8945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963FE8B71E79A24800BF8945 /* LaunchScreen.storyboard */; };
+		963FE8C41E79A24800BF8945 /* ios_cocoapods_keys_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FE8C31E79A24800BF8945 /* ios_cocoapods_keys_demoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963FE8C01E79A24800BF8945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963FE8A31E79A24800BF8945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 963FE8AA1E79A24800BF8945;
+			remoteInfo = "ios-cocoapods-keys-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		963FE8AB1E79A24800BF8945 /* ios-cocoapods-keys-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-cocoapods-keys-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963FE8AE1E79A24800BF8945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		963FE8B01E79A24800BF8945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		963FE8B31E79A24800BF8945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		963FE8B51E79A24800BF8945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		963FE8B81E79A24800BF8945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		963FE8BA1E79A24800BF8945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963FE8BF1E79A24800BF8945 /* ios-cocoapods-keys-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-cocoapods-keys-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963FE8C31E79A24800BF8945 /* ios_cocoapods_keys_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_cocoapods_keys_demoTests.swift; sourceTree = "<group>"; };
+		963FE8C51E79A24800BF8945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963FE8A81E79A24800BF8945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963FE8BC1E79A24800BF8945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963FE8A21E79A24800BF8945 = {
+			isa = PBXGroup;
+			children = (
+				963FE8AD1E79A24800BF8945 /* ios-cocoapods-keys-demo */,
+				963FE8C21E79A24800BF8945 /* ios-cocoapods-keys-demoTests */,
+				963FE8AC1E79A24800BF8945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963FE8AC1E79A24800BF8945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963FE8AB1E79A24800BF8945 /* ios-cocoapods-keys-demo.app */,
+				963FE8BF1E79A24800BF8945 /* ios-cocoapods-keys-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963FE8AD1E79A24800BF8945 /* ios-cocoapods-keys-demo */ = {
+			isa = PBXGroup;
+			children = (
+				963FE8AE1E79A24800BF8945 /* AppDelegate.swift */,
+				963FE8B01E79A24800BF8945 /* ViewController.swift */,
+				963FE8B21E79A24800BF8945 /* Main.storyboard */,
+				963FE8B51E79A24800BF8945 /* Assets.xcassets */,
+				963FE8B71E79A24800BF8945 /* LaunchScreen.storyboard */,
+				963FE8BA1E79A24800BF8945 /* Info.plist */,
+			);
+			path = "ios-cocoapods-keys-demo";
+			sourceTree = "<group>";
+		};
+		963FE8C21E79A24800BF8945 /* ios-cocoapods-keys-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				963FE8C31E79A24800BF8945 /* ios_cocoapods_keys_demoTests.swift */,
+				963FE8C51E79A24800BF8945 /* Info.plist */,
+			);
+			path = "ios-cocoapods-keys-demoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963FE8AA1E79A24800BF8945 /* ios-cocoapods-keys-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963FE8C81E79A24800BF8945 /* Build configuration list for PBXNativeTarget "ios-cocoapods-keys-demo" */;
+			buildPhases = (
+				963FE8A71E79A24800BF8945 /* Sources */,
+				963FE8A81E79A24800BF8945 /* Frameworks */,
+				963FE8A91E79A24800BF8945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-cocoapods-keys-demo";
+			productName = "ios-cocoapods-keys-demo";
+			productReference = 963FE8AB1E79A24800BF8945 /* ios-cocoapods-keys-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		963FE8BE1E79A24800BF8945 /* ios-cocoapods-keys-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963FE8CB1E79A24800BF8945 /* Build configuration list for PBXNativeTarget "ios-cocoapods-keys-demoTests" */;
+			buildPhases = (
+				963FE8BB1E79A24800BF8945 /* Sources */,
+				963FE8BC1E79A24800BF8945 /* Frameworks */,
+				963FE8BD1E79A24800BF8945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				963FE8C11E79A24800BF8945 /* PBXTargetDependency */,
+			);
+			name = "ios-cocoapods-keys-demoTests";
+			productName = "ios-cocoapods-keys-demoTests";
+			productReference = 963FE8BF1E79A24800BF8945 /* ios-cocoapods-keys-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963FE8A31E79A24800BF8945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kentao Taguchi";
+				TargetAttributes = {
+					963FE8AA1E79A24800BF8945 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PCCZJUYRT6;
+						ProvisioningStyle = Automatic;
+					};
+					963FE8BE1E79A24800BF8945 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PCCZJUYRT6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 963FE8AA1E79A24800BF8945;
+					};
+				};
+			};
+			buildConfigurationList = 963FE8A61E79A24800BF8945 /* Build configuration list for PBXProject "ios-cocoapods-keys-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 963FE8A21E79A24800BF8945;
+			productRefGroup = 963FE8AC1E79A24800BF8945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963FE8AA1E79A24800BF8945 /* ios-cocoapods-keys-demo */,
+				963FE8BE1E79A24800BF8945 /* ios-cocoapods-keys-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963FE8A91E79A24800BF8945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963FE8B91E79A24800BF8945 /* LaunchScreen.storyboard in Resources */,
+				963FE8B61E79A24800BF8945 /* Assets.xcassets in Resources */,
+				963FE8B41E79A24800BF8945 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963FE8BD1E79A24800BF8945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963FE8A71E79A24800BF8945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963FE8B11E79A24800BF8945 /* ViewController.swift in Sources */,
+				963FE8AF1E79A24800BF8945 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963FE8BB1E79A24800BF8945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963FE8C41E79A24800BF8945 /* ios_cocoapods_keys_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		963FE8C11E79A24800BF8945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 963FE8AA1E79A24800BF8945 /* ios-cocoapods-keys-demo */;
+			targetProxy = 963FE8C01E79A24800BF8945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		963FE8B21E79A24800BF8945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963FE8B31E79A24800BF8945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		963FE8B71E79A24800BF8945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963FE8B81E79A24800BF8945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963FE8C61E79A24800BF8945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		963FE8C71E79A24800BF8945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963FE8C91E79A24800BF8945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-cocoapods-keys-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-cocoapods-keys-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		963FE8CA1E79A24800BF8945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-cocoapods-keys-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-cocoapods-keys-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		963FE8CC1E79A24800BF8945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-cocoapods-keys-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-cocoapods-keys-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cocoapods-keys-demo.app/ios-cocoapods-keys-demo";
+			};
+			name = Debug;
+		};
+		963FE8CD1E79A24800BF8945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-cocoapods-keys-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-cocoapods-keys-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cocoapods-keys-demo.app/ios-cocoapods-keys-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963FE8A61E79A24800BF8945 /* Build configuration list for PBXProject "ios-cocoapods-keys-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963FE8C61E79A24800BF8945 /* Debug */,
+				963FE8C71E79A24800BF8945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963FE8C81E79A24800BF8945 /* Build configuration list for PBXNativeTarget "ios-cocoapods-keys-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963FE8C91E79A24800BF8945 /* Debug */,
+				963FE8CA1E79A24800BF8945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		963FE8CB1E79A24800BF8945 /* Build configuration list for PBXNativeTarget "ios-cocoapods-keys-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963FE8CC1E79A24800BF8945 /* Debug */,
+				963FE8CD1E79A24800BF8945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963FE8A31E79A24800BF8945 /* Project object */;
+}
