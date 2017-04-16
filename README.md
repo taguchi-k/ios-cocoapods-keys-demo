@@ -26,7 +26,7 @@ PrivateKey="privateValue"
 ```
 
 #### 注意
-* `.env` を `pod install` に追加する
+* `.env` を `.gitignore` に追加する
     * 誤ってGit管理に追加してしまう等、センシティブな情報を公開してしまうリスクがあるため
     
 ``` :.gitignore
