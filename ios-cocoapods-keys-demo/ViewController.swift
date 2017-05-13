@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         // 設定値を取得する
         let secretValue = keys.secretkey
         let privateValue = keys.privateKey
+
+        /*
+         動作確認用に出力していますが、
+         実際に利用する際はセンシティブ情報なので出力非推奨です。
+         */
         print("secretValue: \(secretValue), privateValue: \(privateValue)")
     }
 }
